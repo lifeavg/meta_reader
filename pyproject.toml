@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meta_reader"
+version = "0.1.0"
+description = "Text file metadata reader"
+requires-python = ">=3.10"
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+mrd = "meta_reader.main:main"
+
+[project.urls]
+Source = "https://github.com/lifeavg/meta_reader"
